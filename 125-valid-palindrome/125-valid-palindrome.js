@@ -2,19 +2,13 @@
  * @param {string} s
  * @return {boolean}
  */
-var isPalindrome = function(s) {
-    s = s.replaceAll(/[^a-zA-Z0-9]/gi, "").toLowerCase();
-
-    let start =0;
-    let end = s.length-1;
-    while(start<=end) {
-        if(s[start] != s[end])
-            return false;
-        else{
-            start++;
-            end--;
-        }      
-    }
-    return true;
-    
+var isPalindrome = function (s) {
+let newString = s.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+if (newString === newString.split("").reverse().join("")) {
+return true;
+} else {
+return false;
 }
+};
+
+isPalindrome(" ")
