@@ -3,12 +3,12 @@
  * @return {boolean}
  */
 var isPalindrome = function (s) {
-let newString = s.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
-if (newString === newString.split("").reverse().join("")) {
-return true;
-} else {
-return false;
-}
+  let x = s.toLowerCase().replace(/[^A-Za-z0-9]/g, "");
+  let y = x.split("").reverse().join("")
+  if (x === y) {
+    return true;
+  } else {
+    return false;
+  }
 };
 
-isPalindrome(" ")
