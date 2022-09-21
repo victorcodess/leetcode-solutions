@@ -1,3 +1,4 @@
+[Discussion Post (created on 21/8/2022 at 18:19)](https://leetcode.com/problems/check-if-n-and-its-double-exist/discuss/2606672/Easy-and-Simple-JavaScript-Solution-oror-Runtime%3A-84-ms-(81.14-))  
 <h2>  Check If N and Its Double Exist</h2><hr><div><p>Given an array <code>arr</code> of integers, check if there exist two indices <code>i</code> and <code>j</code> such that :</p>
 
 <ul>
