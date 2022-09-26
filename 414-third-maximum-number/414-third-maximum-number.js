@@ -9,8 +9,7 @@ var thirdMax = function(nums) {
   if(sortedArr.length < 3) {
    disMax = sortedArr[last]
   } else {
-    let thirdDis = sortedArr[sortedArr.length - 3]
-    disMax = thirdDis
+    disMax = sortedArr[sortedArr.length - 3]
   }
    return disMax 
 };
